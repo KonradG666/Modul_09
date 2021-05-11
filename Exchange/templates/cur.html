@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='kantor_style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="Center">
+        <form form action="" method="POST">
+
+            <label for="currency">Wybierz Walutę:</label>
+
+            <select name="currency" id="currency">
+            <option value="USD">dolar amerykański</option>
+            <option value="AUD">dolar australijski</option>
+            <option value="CAD">dolar kanadyjski</option>
+            <option value="EUR">euro</option>
+            <option value="HUF">forint</option>
+            <option value="CHF">frank szwajcarski</option>
+            <option value="GBP">funt szterling</option>
+            <option value="JPY">jen (Japonia)</option>
+            </select>
+            <p></p>
+            <label for="name">Ile chcesz kupić: </label>
+            <input type="text" id="quantity" name="quantity" value=""><br>
+            <p>Kupiłeś: {{ ask }}</p> 
+            
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+</body>
+</html>

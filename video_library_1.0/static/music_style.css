@@ -1,0 +1,19 @@
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: bold;
+    font-size: 30px;
+    text-align: center;
+    font-color: blue;
+}
+
+body { 
+      text-align: center;
+      font-size: 18px;
+      font-style: italic;
+}	
+
+table, th, td {
+		border: 1px solid black;
+		margin-left:auto;
+		margin-right:auto;
+}

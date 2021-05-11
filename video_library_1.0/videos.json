@@ -1,0 +1,5 @@
+[
+    {"id": 1, "title": "S&M 2" , "band": "Metallica", "genre": "Tnrash Metal"},
+    {"id": 2, "title": "As The Stages Burn" , "band": "Arch Enemy", "genre": "Death Metal"},
+    {"id": 3, "title": "25 Lat Później", "band": "Hunter", "genre": "Soul Metal"}
+]

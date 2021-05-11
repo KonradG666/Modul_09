@@ -1,0 +1,13 @@
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: bold;
+    font-size: 44px;
+    text-align: center;
+    font-color: blue;
+}
+
+body { 
+      text-align: center;
+      font-size: 18px;
+      font-style: italic;
+}	
